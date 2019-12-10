@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Harding Robotics Team`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `This is the homepage for the Harding Robotics Team - Saint Paul, MN.`,
     author: `@gatsbyjs`,
   },
   plugins: [
