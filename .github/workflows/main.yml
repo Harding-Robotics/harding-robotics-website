@@ -9,8 +9,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: Harding-Robotics/harding-robotics-website@v2
+      - uses: actions/checkout@master
+      - uses: Harding-Robotics/harding-robotics-website@master
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: gh-pages
